@@ -310,60 +310,43 @@ footer{
 @media(max-width: 768px){
 
     .navbar{
-        flex-direction: column;
+        flex-direction: row;
 
-        gap: 20px;
-
-        padding: 20px;
-    }
-
-    .nav-links{
-        flex-direction: column;
+        justify-content: space-between;
 
         align-items: center;
 
-        gap: 15px;
-
-        transition: 0.3s;
+        padding: 15px 20px;
     }
-    .nav-links a:hover{
-    color: cyan;
+
+    .nav-links{
+        flex-direction: row;
+
+        gap: 15px;
+    }
+
+    .hero{
+        padding-top: 100px;
     }
 
     .hero h1{
-        font-size: 40px;
+        font-size: 32px;
 
         text-align: center;
     }
 
     .hero p{
         font-size: 18px;
-
-        text-align: center;
     }
 
-    .about,
-    .skills,
-    .projects,
-    .contact{
-        padding: 80px 20px;
+    button{
+        width: auto;
     }
 
-    .about h2,
-    .skills h2,
-    .projects h2,
-    .contact h2{
-        font-size: 32px;
-    }
+    #theme-toggle{
+        padding: 10px 15px;
 
-    .skill-card,
-    .project-card{
-        width: 100%;
-        max-width: 350px;
-    }
-
-    .contact-form{
-        width: 100%;
+        font-size: 18px;
     }
 }
 .whatsapp{
