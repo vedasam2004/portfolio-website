@@ -322,11 +322,19 @@ footer{
     .nav-links{
         flex-direction: row;
 
-        gap: 15px;
+        flex-wrap: wrap;
+
+        gap: 10px;
+    }
+
+    .nav-links a{
+        font-size: 16px;
     }
 
     .hero{
-        padding-top: 100px;
+        min-height: 100vh;
+
+        padding: 120px 20px 50px;
     }
 
     .hero h1{
@@ -347,6 +355,10 @@ footer{
         padding: 10px 15px;
 
         font-size: 18px;
+    }
+
+    .logo{
+        white-space: nowrap;
     }
 }
 .whatsapp{
